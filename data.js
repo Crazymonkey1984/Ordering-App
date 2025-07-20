@@ -50,7 +50,7 @@ export const menuArray = [
     {
         name: "Green Salad",
         ingredients: ["lettuce", "cheery tomato", "red onion"],
-        id: 6,
+        id: 7,
         price: 12,
         emoji: "🥗", 
         quantity: 0
