@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jimmy's Diner</title>
+        <!-- font link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <!-- css style -->
+       <link rel="stylesheet" href="index.css">
+    </head>
+    
+    <body>
+        <div class="app-container">
+            <header class="diner-header">
+                <div class="header-content">
+                    <h1>Jimmy’s Diner</h1>
+                    <p>The best burgers and pizzas in town.</p>
+                </div>
+            </header>
+            
+            <main id="menu"></main>
+            <!-- <div class="order-section" id="order-section"></div> -->
+            <div id="confirmation-message" class="confirmation hidden"></div>
+        </div>
+        
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <h3>Enter Card details</h3>
+                <form id="checkout-form">
+                    <input id ="name" type="text" placeholder="Enter your name" required />
+                    <input id="card" type="text" placeholder="Enter your card number" required/>
+                    <input type="text" placeholder="Enter CVV" required/>
+                    <button type="submit" class="pay-btn">Pay</button>
+                </form>
+            </div>
+        </div>
+        
+        
+	    <script type="module" src="index.js"></script>
+    </body>
+</html>
+
